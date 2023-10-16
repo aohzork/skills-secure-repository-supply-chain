@@ -1,6 +1,6 @@
 version: 2
 updates:
-  - package-ecosystem: "github-actions"
-    directory: "/"
+  - package-ecosystem: "nuget" # See documentation for possible values
+    directory: "/code/" # Location of package manifest
     schedule:
-      interval: "monthly"
+      interval: "daily"
